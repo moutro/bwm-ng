@@ -136,10 +136,27 @@
     "schematics": {
         "@schematics/angular:component": {
             "prefix": "bwm",
-            "styleext": "scss"
+            "styleext": "scss",
+            "spec": false
         },
         "@schematics/angular:directive": {
-            "prefix": "bwm"
+            "prefix": "bwm",
+            "spec": false
+        },
+        "@schematics/angular:class": {
+            "spec": false
+        },
+        "@schematics/angular:guard": {
+            "spec": false
+        },
+        "@schematics/angular:module": {
+            "spec": false
+        },
+        "@schematics/angular:pipe": {
+            "spec": false
+        },
+        "@schematics/angular:service": {
+            "spec": false
         }
     }
 }
