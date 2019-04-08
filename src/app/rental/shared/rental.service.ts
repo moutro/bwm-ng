@@ -64,7 +64,7 @@ export class RentalService {
 
             setTimeout(() => {
                 const foundRental = this.rentals.find((rental) => {
-                return rental.id = rentalId;
+                return rental.id === rentalId;
                 });
 
                 observer.next(foundRental);
